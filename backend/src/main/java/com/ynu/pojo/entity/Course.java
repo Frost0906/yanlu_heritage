@@ -1,5 +1,6 @@
 package com.ynu.pojo.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,7 +15,7 @@ import java.util.List;
  public class Course {
    private Long courseId;
    private String title;
-   private CourseCategory category;
+   private CourseCategory categoryName;
    private String introduction;
    private BigDecimal price;
    private Date startDate;

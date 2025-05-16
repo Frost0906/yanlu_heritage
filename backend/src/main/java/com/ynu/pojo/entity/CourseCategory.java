@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CourseCategory {
     private Long categoryId;
-    private CourseCategoryEnum category;
+    private CourseCategoryEnum name;
     private String icon;
 }
